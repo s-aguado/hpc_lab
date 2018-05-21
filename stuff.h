@@ -63,5 +63,6 @@ void get_walltime(const resnfo start, const resnfo end, timenfo *const t);
 void populating_arrays(basetype arrayA[], basetype arrayB[], basetype arrayR[], const unsigned int n);
 basetype check_result_and_reset(basetype array[], const unsigned int n);
 void reset_matrix(basetype array[], const unsigned int n);
+void adjust_params(unsigned int *n);
 
 #endif

@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
   // 1: Tiling: elements per row and per column in block (default: BLK)
   unsigned int blk = (argc > 2)?atoi (argv[2]):BLK;
 
+  adjust_params(&n);
+
   // Matrices size
   unsigned int numBytes = n * n * sizeof(basetype);
 
