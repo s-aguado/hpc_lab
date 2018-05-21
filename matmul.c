@@ -23,11 +23,14 @@ int main(int argc, char *argv[])
   unsigned int numBytes = n * n * sizeof(basetype);
 
 
-  // Allocate and init matrices
+  // Allocate and init matrices (32-byte aligned addresses for AVX2)
   timestamp(&start);
-  basetype *vectorA = (basetype *) malloc(numBytes);
-  basetype *vectorB = (basetype *) malloc(numBytes);
-  basetype *vectorR = (basetype *) malloc(numBytes);
+  // basetype *vectorA = (basetype *) malloc(numBytes);
+  // basetype *vectorB = (basetype *) malloc(numBytes);
+  // basetype *vectorR = (basetype *) malloc(numBytes);
+  basetype *vectorA = (basetype *) _mm_malloc (numBytes, 32);
+  basetype *vectorB = (basetype *) _mm_malloc (numBytes, 32);
+  basetype *vectorR = (basetype *) _mm_malloc (numBytes, 32);
   populating_arrays(vectorA, vectorB, vectorR, n*n);
   timestamp(&end);
 
@@ -153,9 +156,12 @@ int main(int argc, char *argv[])
   printf(" -> Matrix product: ikj AVX implementation\n\n");
 
 
-  free(vectorA);
-  free(vectorB);
-  free(vectorR);
+  // free(vectorA);
+  // free(vectorB);
+  // free(vectorR);
+  _mm_free(vectorA);
+  _mm_free(vectorB);
+  _mm_free(vectorR);
 
   return(0);
 }

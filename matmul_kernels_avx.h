@@ -11,6 +11,8 @@
 #ifndef MATMUL_AVX_KERNELS_H_INCLUDED
 #define MATMUL_AVX_KERNELS_H_INCLUDED
 
+#include <immintrin.h>
+
 // IKJ version with a minimal optimization effort
 void matmul_ikj_avx(const basetype arrayA[], const basetype arrayB[],
                     basetype arrayR[], const unsigned int nrowsA,
