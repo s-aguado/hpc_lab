@@ -40,11 +40,11 @@ void matmul_opt(const basetype arrayA[], const basetype arrayB[],
   for(i = 0; i < nrowsA; i++) {
 
     for(j = 0; j < pcolsB; j++) {
-      const basetype *B = arrayB;
+      const basetype *B = arrayB + j;
       basetype result = 0;
 
       for(k = 0; k < mcolsA; k++) {
-        result += A[k] * B[j];
+        result += A[k] * *B;
 
         B += pcolsB;
       }
