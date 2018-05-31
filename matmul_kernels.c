@@ -154,6 +154,40 @@ void matmul_tiling_opt(const basetype arrayA[], const basetype arrayB[],
   }
 }
 
+/*
+  Classic ijk tiling version with a medium optimization effort
+
+  tiling_block in B: rowsBLK x colsBLK
+*/
+void matmul_tiling_opt2(const basetype arrayA[], const basetype arrayB[],
+                        basetype arrayR[], const unsigned int nrowsA,
+                        const unsigned int mcolsA, const unsigned int pcolsB,
+                        const unsigned int rowsBLK, const unsigned int colsBLK)
+{
+  unsigned int i, j, k, jj, kk, limj, limk, imcolsA;
+
+  for (jj = 0; jj < pcolsB; jj += colsBLK) {
+    limj = min(jj+colsBLK, pcolsB);
+
+    for (kk = 0; kk < mcolsA; kk += rowsBLK) {
+      limk = min(kk+rowsBLK, mcolsA);
+
+      for(i = 0; i < nrowsA; i++) {
+        imcolsA = i * mcolsA;
+
+        for(j = jj; j < limj; j++) {
+          basetype result = (basetype) 0;
+
+          for(k = kk; k < limk; k++)
+            result += arrayA[imcolsA+k] * arrayB[k*pcolsB+j];
+
+          arrayR[imcolsA+j] += result;
+        }
+      }
+    }
+  }
+}
+
 
 /*
   ikj tiling version

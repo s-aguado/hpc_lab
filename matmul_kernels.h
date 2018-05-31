@@ -43,6 +43,12 @@ void matmul_tiling_opt(const basetype arrayA[], const basetype arrayB[],
                        const unsigned int mcolsA, const unsigned int pcolsB,
                        const unsigned int rowsBLK, const unsigned int colsBLK);
 
+// Classic ijk tiling version with a medium optimization effort
+void matmul_tiling_opt2(const basetype arrayA[], const basetype arrayB[],
+                        basetype arrayR[], const unsigned int nrowsA,
+                        const unsigned int mcolsA, const unsigned int pcolsB,
+                        const unsigned int rowsBLK, const unsigned int colsBLK);
+
 // ikj tiling version
 void matmul_tiling_ikj(const basetype arrayA[], const basetype arrayB[],
                        basetype arrayR[], const unsigned int nrowsA,
