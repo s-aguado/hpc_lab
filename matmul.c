@@ -48,10 +48,11 @@ int main(int argc, char *argv[])
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: naive ijk implementation\n\n");
+  printf(" -> Matrix product: naive ijk implementation\n");
 
-  reset_matrix(vectorR, n*n);
-
+  //  reset_matrix(vectorR, n*n);
+  basetype check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
   // ijk opt version
   timestamp(&start);
@@ -62,7 +63,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: ijk opt implementation\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // ikj version
@@ -74,7 +77,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: ikj implementation\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // ikj opt version
@@ -86,7 +91,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: ikj opt implementation\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // Tailing version
@@ -98,7 +105,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: tailing approach (blk: %dx%d)\n\n", blk, blk);
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // Tailing version with additional opt
@@ -110,7 +119,24 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: tailing approach with opt\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
+
+
+  // Tailing version with additional opts
+  timestamp(&start);
+  matmul_tiling_opt2(vectorA, vectorB, vectorR, n, n, n, blk, blk);
+  timestamp(&end);
+
+  get_walltime(start, end, &time);
+  printtime(time);
+  printf(" -> Matrix product: tailing approach with additional opts\n\n");
+
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
+
 
   // Tailing+ikj version
   timestamp(&start);
@@ -121,7 +147,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: tailing+ikj approach\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // Tailing+ikj with a minimal optimization effort
@@ -133,7 +161,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: tailing+ikj approach with min opts\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // Tailing+ikj with a medium optimization effort
@@ -145,7 +175,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: tailing+ikj approach with med opts\n\n");
 
-  reset_matrix(vectorR, n*n);
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
   // ikj AVX version
@@ -157,6 +189,9 @@ int main(int argc, char *argv[])
   printtime(time);
   printf(" -> Matrix product: ikj AVX implementation\n\n");
 
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
   // free(vectorA);
   // free(vectorB);

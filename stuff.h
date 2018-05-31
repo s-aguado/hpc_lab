@@ -9,12 +9,15 @@
 #ifdef _INT_
 typedef int basetype;
 #define labelelem    "ints"
+#define printdata(t) printf("%i", t);
 #elif _DOUBLE_
 typedef double basetype;
 #define labelelem    "doubles"
+#define printdata(t) printf("%f", t);
 #else
 typedef float basetype;       // DEFAULT
 #define labelelem    "floats"
+#define printdata(t) printf("%f", t);
 #endif
 
 #define min(a,b)                \
