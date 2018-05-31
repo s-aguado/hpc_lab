@@ -96,84 +96,84 @@ int main(int argc, char *argv[])
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing version
+  // Tiling version
   timestamp(&start);
   matmul_tiling(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing approach (blk: %dx%d)\n\n", blk, blk);
+  printf(" -> Matrix product: tiling approach (blk: %dx%d)\n\n", blk, blk);
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing version with additional opt
+  // Tiling version with additional opt
   timestamp(&start);
   matmul_tiling_opt(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing approach with opt\n\n");
+  printf(" -> Matrix product: tiling approach with opt\n\n");
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing version with additional opts
+  // Tiling version with additional opts
   timestamp(&start);
   matmul_tiling_opt2(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing approach with additional opts\n\n");
+  printf(" -> Matrix product: tiling approach with additional opts\n\n");
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing+ikj version
+  // Tiling+ikj version
   timestamp(&start);
   matmul_tiling_ikj(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing+ikj approach\n\n");
+  printf(" -> Matrix product: tiling+ikj approach\n\n");
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing+ikj with a minimal optimization effort
+  // Tiling+ikj with a minimal optimization effort
   timestamp(&start);
   matmul_tiling_ikj_opt(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing+ikj approach with min opts\n\n");
+  printf(" -> Matrix product: tiling+ikj approach with min opts\n\n");
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // Tailing+ikj with a medium optimization effort
+  // Tiling+ikj with a medium optimization effort
   timestamp(&start);
   matmul_tiling_ikj_opt2(vectorA, vectorB, vectorR, n, n, n, blk, blk);
   timestamp(&end);
 
   get_walltime(start, end, &time);
   printtime(time);
-  printf(" -> Matrix product: tailing+ikj approach with med opts\n\n");
+  printf(" -> Matrix product: tiling+ikj approach with med opts\n\n");
 
   //  reset_matrix(vectorR, n*n);
   check = check_result_and_reset(vectorR, n*n);
