@@ -27,15 +27,16 @@ void matmul_ikj_avx(const basetype arrayA[], const basetype arrayB[],
   __m256i idx[8] = { _mm256_setzero_si256(), _mm256_set1_epi8(1), _mm256_set1_epi8(2), _mm256_set1_epi8(3), _mm256_set1_epi8(4), _mm256_set1_epi8(5), _mm256_set1_epi8(6), _mm256_set1_epi8(7) };
 
   const basetype *A = arrayA;
+  basetype *rowR = arrayR;
 
   for(i = 0; i < nrowsA; i++) {
     const basetype *B = arrayB;
-    const basetype *R = arrayR;
 
     for(k = 0; k < mcolsA; k += 8) {
       ymm0 = _mm256_load_ps(A);
 
       for(l = 0; l < 8; l++) {
+        basetype *R = rowR;
         ymm1 = _mm256_permutevar8x32_ps(ymm0, idx[l]);
 
         for(j = 0; j < pcolsB; j += 56) {
@@ -48,13 +49,13 @@ void matmul_ikj_avx(const basetype arrayA[], const basetype arrayB[],
           ymm7 = _mm256_load_ps(&B[40]);
           ymm8 = _mm256_load_ps(&B[48]);
 
-          ymm9 = _mm256_load_ps(&arrayR[0]);
-          ymm10 = _mm256_load_ps(&arrayR[8]);
-          ymm11 = _mm256_load_ps(&arrayR[16]);
-          ymm12 = _mm256_load_ps(&arrayR[24]);
-          ymm13 = _mm256_load_ps(&arrayR[32]);
-          ymm14 = _mm256_load_ps(&arrayR[40]);
-          ymm15 = _mm256_load_ps(&arrayR[48]);
+          ymm9 = _mm256_load_ps(&R[0]);
+          ymm10 = _mm256_load_ps(&R[8]);
+          ymm11 = _mm256_load_ps(&R[16]);
+          ymm12 = _mm256_load_ps(&R[24]);
+          ymm13 = _mm256_load_ps(&R[32]);
+          ymm14 = _mm256_load_ps(&R[40]);
+          ymm15 = _mm256_load_ps(&R[48]);
 
           ymm9 = _mm256_fmadd_ps(ymm1, ymm2, ymm9);
           ymm10 = _mm256_fmadd_ps(ymm1, ymm3, ymm10);
@@ -64,13 +65,13 @@ void matmul_ikj_avx(const basetype arrayA[], const basetype arrayB[],
           ymm14 = _mm256_fmadd_ps(ymm1, ymm7, ymm14);
           ymm15 = _mm256_fmadd_ps(ymm1, ymm8, ymm15);
 
-          _mm256_store_ps(&arrayR[0], ymm9);
-          _mm256_store_ps(&arrayR[8], ymm10);
-          _mm256_store_ps(&arrayR[16], ymm11);
-          _mm256_store_ps(&arrayR[24], ymm12);
-          _mm256_store_ps(&arrayR[32], ymm13);
-          _mm256_store_ps(&arrayR[40], ymm14);
-          _mm256_store_ps(&arrayR[48], ymm15);
+          _mm256_store_ps(&R[0], ymm9);
+          _mm256_store_ps(&R[8], ymm10);
+          _mm256_store_ps(&R[16], ymm11);
+          _mm256_store_ps(&R[24], ymm12);
+          _mm256_store_ps(&R[32], ymm13);
+          _mm256_store_ps(&R[40], ymm14);
+          _mm256_store_ps(&R[48], ymm15);
 
           B += 56;
           R += 56;
@@ -79,5 +80,6 @@ void matmul_ikj_avx(const basetype arrayA[], const basetype arrayB[],
 
       A += 8;
     }
+    rowR += pcolsB;
   }
 }
