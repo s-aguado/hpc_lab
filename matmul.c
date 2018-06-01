@@ -26,6 +26,13 @@ int main(int argc, char *argv[])
 
 
   // Allocate and init matrices (32-byte aligned addresses for AVX2)
+  // About aligned memory allocation:
+  // https://stackoverflow.com/questions/32612881/why-use-mm-malloc-as-opposed-to-aligned-malloc-alligned-alloc-or-posix-mem
+  // C11 alt.: void * aligned_alloc (size_t alignment, size_t size)
+  // POSIX alt.: int posix_memalign (void **memptr, size_t alignment, size_t size)
+  // Intel's used here: void* _mm_malloc (int size, int align)
+  //                    void _mm_free (void *p)
+
   timestamp(&start);
   // basetype *vectorA = (basetype *) malloc(numBytes);
   // basetype *vectorB = (basetype *) malloc(numBytes);
