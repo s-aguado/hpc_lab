@@ -59,7 +59,7 @@ void matmul_opt(const basetype arrayA[], const basetype arrayB[],
 
 
 /*
-  IKJ version: j in inner loop improves cache access
+  IKJ version: j in inner loop improves locality (i.e. exploits cache lines)
 */
 void matmul_ikj(const basetype arrayA[], const basetype arrayB[],
                 basetype arrayR[], const unsigned int nrowsA,
