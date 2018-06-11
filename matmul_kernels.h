@@ -67,4 +67,9 @@ void matmul_tiling_ikj_opt2(const basetype arrayA[], const basetype arrayB[],
                             const unsigned int mcolsA, const unsigned int pcolsB,
                             const unsigned int rowsBLK, const unsigned int colsBLK);
 
+void matmul_tiling_cls_opt(const basetype arrayA[], const basetype arrayB[],
+                           basetype arrayR[], const unsigned int nrowsA,
+                           const unsigned int mcolsA, const unsigned int pcolsB,
+                           const unsigned int sm);
+
 #endif

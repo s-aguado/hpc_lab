@@ -272,3 +272,44 @@ void matmul_tiling_ikj_opt2(const basetype arrayA[], const basetype arrayB[],
     }
   }
 }
+
+
+/*
+  ikj tiling version with a medium optimization effort
+
+  tiling_block in B: rowsBLK x colsBLK
+*/
+void matmul_tiling_cls_opt(const basetype arrayA[], const basetype arrayB[],
+                           basetype arrayR[], const unsigned int nrowsA,
+                           const unsigned int mcolsA, const unsigned int pcolsB,
+                           const unsigned int sm)
+{
+  unsigned int i, j, k, ii, jj, kk, limii, limjj, limkk, nexti, nextj, nextk;
+  unsigned int resi = nrowsA % sm, resj = pcolsB % sm, resk = mcolsA % sm;
+
+  for (i = 0; i < nrowsA; i = nexti) {
+    nexti = i + sm;
+    limii = (nexti > nrowsA)?resi:sm;
+
+    for (j = 0; j < pcolsB; j = nextj) {
+      nextj = j + sm;
+      limjj = (nextj > pcolsB)?resj:sm;
+
+      for (k = 0; k < mcolsA; k = nextk) {
+        nextk = k + sm;
+        limkk = (nextk > mcolsA)?resk:sm;
+
+        basetype *R = &arrayR[i * pcolsB + j];
+        const basetype *A = &arrayA[i * mcolsA + k];
+
+        for (ii = 0; ii < limii; ++ii, R += pcolsB, A += mcolsA) {
+          const basetype *B = &arrayB[k * pcolsB + j];
+
+          for (kk = 0; kk < limkk; ++kk, B += pcolsB)
+            for (jj = 0; jj < limjj; ++jj)
+              R[jj] += A[kk] * B[jj];
+        }
+      }
+    }
+  }
+}

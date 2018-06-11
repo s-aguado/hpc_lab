@@ -187,7 +187,21 @@ int main(int argc, char *argv[])
   printf("%29s", "Check: "); printdata(check); printf("\n\n");
 
 
-  // ikj AVX version
+  // cls version
+  timestamp(&start);
+  matmul_tiling_cls_opt(vectorA, vectorB, vectorR, n, n, n, 16);
+  timestamp(&end);
+
+  get_walltime(start, end, &time);
+  printtime(time);
+  printf(" -> Matrix product: cls implementation\n\n");
+
+  //  reset_matrix(vectorR, n*n);
+  check = check_result_and_reset(vectorR, n*n);
+  printf("%29s", "Check: "); printdata(check); printf("\n\n");
+
+
+    // ikj AVX version
   timestamp(&start);
   matmul_ikj_avx(vectorA, vectorB, vectorR, n, n, n);
   timestamp(&end);
