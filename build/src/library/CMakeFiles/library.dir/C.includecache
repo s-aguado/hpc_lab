@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../src/library/inc/stuff.h
+stdlib.h
+-
+time.h
+-
+string.h
+-
+sys/time.h
+-
+sys/resource.h
+-
+
 /home/ulc/cursos/curso391/Tools/hpc_lab/src/library/matmul_kernels.c
 stuff.h
 /home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
@@ -21,16 +33,4 @@ math.h
 -
 stuff.h
 /home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
-
-/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
-stdlib.h
--
-time.h
--
-string.h
--
-sys/time.h
--
-sys/resource.h
--
 

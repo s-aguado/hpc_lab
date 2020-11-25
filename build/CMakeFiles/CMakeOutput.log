@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/ulc/cursos/curso391/Tool
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_679a3/fast"
-/bin/gmake -f CMakeFiles/cmTC_679a3.dir/build.make CMakeFiles/cmTC_679a3.dir/build
+Run Build Command:"/bin/gmake" "cmTC_0dc8f/fast"
+/bin/gmake -f CMakeFiles/cmTC_0dc8f.dir/build.make CMakeFiles/cmTC_0dc8f.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_679a3.dir/testCCompiler.c.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_679a3.dir/testCCompiler.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_679a3
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_679a3.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_679a3.dir/testCCompiler.c.o  -o cmTC_679a3 
+Building C object CMakeFiles/cmTC_0dc8f.dir/testCCompiler.c.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_0dc8f.dir/testCCompiler.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0dc8f
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc8f.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_0dc8f.dir/testCCompiler.c.o  -o cmTC_0dc8f 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_0d31f/fast"
-/bin/gmake -f CMakeFiles/cmTC_0d31f.dir/build.make CMakeFiles/cmTC_0d31f.dir/build
+Run Build Command:"/bin/gmake" "cmTC_50bca/fast"
+/bin/gmake -f CMakeFiles/cmTC_50bca.dir/build.make CMakeFiles/cmTC_50bca.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o   -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0d31f
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d31f.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o  -o cmTC_0d31f 
+Building C object CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o   -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_50bca
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50bca.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o  -o cmTC_50bca 
 Reading specs from /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/specs
 COLLECT_GCC=/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc
 COLLECT_LTO_WRAPPER=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 6.4.0 (GCC) 
 COMPILER_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/
 LIBRARY_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0d31f' '-mtune=generic' '-march=x86-64'
- /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckKUEqT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_0d31f /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0d31f' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_50bca' '-mtune=generic' '-march=x86-64'
+ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXVxxvF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_50bca /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_50bca' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/bin/gmake" "cmTC_0d31f/fast"]
-  ignore line: [/bin/gmake -f CMakeFiles/cmTC_0d31f.dir/build.make CMakeFiles/cmTC_0d31f.dir/build]
+  ignore line: [Run Build Command:"/bin/gmake" "cmTC_50bca/fast"]
+  ignore line: [/bin/gmake -f CMakeFiles/cmTC_50bca.dir/build.make CMakeFiles/cmTC_50bca.dir/build]
   ignore line: [gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o   -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0d31f]
-  ignore line: [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d31f.dir/link.txt --verbose=1]
-  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o  -o cmTC_0d31f ]
+  ignore line: [Building C object CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc    -o CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o   -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_50bca]
+  ignore line: [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50bca.dir/link.txt --verbose=1]
+  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o  -o cmTC_50bca ]
   ignore line: [Reading specs from /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/specs]
   ignore line: [COLLECT_GCC=/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.4.0 (GCC) ]
   ignore line: [COMPILER_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0d31f' '-mtune=generic' '-march=x86-64']
-  link line: [ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckKUEqT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_0d31f /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_50bca' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXVxxvF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_50bca /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckKUEqT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXVxxvF.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0d31f] ==> ignore
+    arg [cmTC_50bca] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o] ==> ignore
@@ -131,7 +131,7 @@ Parsed C implicit link information from above output:
     arg [-L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64] ==> dir [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64]
     arg [-L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib] ==> dir [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib]
     arg [-L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> dir [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..]
-    arg [CMakeFiles/cmTC_0d31f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_50bca.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -174,14 +174,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_6a0e7/fast"
-/bin/gmake -f CMakeFiles/cmTC_6a0e7.dir/build.make CMakeFiles/cmTC_6a0e7.dir/build
+Run Build Command:"/bin/gmake" "cmTC_d13df/fast"
+/bin/gmake -f CMakeFiles/cmTC_d13df.dir/build.make CMakeFiles/cmTC_d13df.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a0e7.dir/feature_tests.c.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c11 -o CMakeFiles/cmTC_6a0e7.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6a0e7
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a0e7.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_6a0e7.dir/feature_tests.c.o  -o cmTC_6a0e7 
+Building C object CMakeFiles/cmTC_d13df.dir/feature_tests.c.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c11 -o CMakeFiles/cmTC_d13df.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d13df
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d13df.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_d13df.dir/feature_tests.c.o  -o cmTC_d13df 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -194,14 +194,14 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_6d4ba/fast"
-/bin/gmake -f CMakeFiles/cmTC_6d4ba.dir/build.make CMakeFiles/cmTC_6d4ba.dir/build
+Run Build Command:"/bin/gmake" "cmTC_5ad84/fast"
+/bin/gmake -f CMakeFiles/cmTC_5ad84.dir/build.make CMakeFiles/cmTC_5ad84.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d4ba.dir/feature_tests.c.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c99 -o CMakeFiles/cmTC_6d4ba.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6d4ba
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d4ba.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_6d4ba.dir/feature_tests.c.o  -o cmTC_6d4ba 
+Building C object CMakeFiles/cmTC_5ad84.dir/feature_tests.c.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c99 -o CMakeFiles/cmTC_5ad84.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5ad84
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad84.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_5ad84.dir/feature_tests.c.o  -o cmTC_5ad84 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -214,14 +214,14 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_f1ddb/fast"
-/bin/gmake -f CMakeFiles/cmTC_f1ddb.dir/build.make CMakeFiles/cmTC_f1ddb.dir/build
+Run Build Command:"/bin/gmake" "cmTC_f293e/fast"
+/bin/gmake -f CMakeFiles/cmTC_f293e.dir/build.make CMakeFiles/cmTC_f293e.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1ddb.dir/feature_tests.c.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c90 -o CMakeFiles/cmTC_f1ddb.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f1ddb
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ddb.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_f1ddb.dir/feature_tests.c.o  -o cmTC_f1ddb 
+Building C object CMakeFiles/cmTC_f293e.dir/feature_tests.c.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc   -std=c90 -o CMakeFiles/cmTC_f293e.dir/feature_tests.c.o   -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f293e
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f293e.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc      -rdynamic CMakeFiles/cmTC_f293e.dir/feature_tests.c.o  -o cmTC_f293e 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -232,28 +232,28 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_dbcb0/fast"
-/bin/gmake -f CMakeFiles/cmTC_dbcb0.dir/build.make CMakeFiles/cmTC_dbcb0.dir/build
+Run Build Command:"/bin/gmake" "cmTC_7b408/fast"
+/bin/gmake -f CMakeFiles/cmTC_7b408.dir/build.make CMakeFiles/cmTC_7b408.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dbcb0.dir/testCXXCompiler.cxx.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_dbcb0.dir/testCXXCompiler.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_dbcb0
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbcb0.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_dbcb0.dir/testCXXCompiler.cxx.o  -o cmTC_dbcb0 
+Building CXX object CMakeFiles/cmTC_7b408.dir/testCXXCompiler.cxx.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_7b408.dir/testCXXCompiler.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7b408
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b408.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_7b408.dir/testCXXCompiler.cxx.o  -o cmTC_7b408 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_c2b62/fast"
-/bin/gmake -f CMakeFiles/cmTC_c2b62.dir/build.make CMakeFiles/cmTC_c2b62.dir/build
+Run Build Command:"/bin/gmake" "cmTC_c55aa/fast"
+/bin/gmake -f CMakeFiles/cmTC_c55aa.dir/build.make CMakeFiles/cmTC_c55aa.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c2b62
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b62.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c2b62 
+Building CXX object CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c55aa
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c55aa.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c55aa 
 Reading specs from /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/specs
 COLLECT_GCC=/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++
 COLLECT_LTO_WRAPPER=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper
@@ -263,9 +263,9 @@ Thread model: posix
 gcc version 6.4.0 (GCC) 
 COMPILER_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/
 LIBRARY_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c2b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchuwcBL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_c2b62 /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c2b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c55aa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTyqpj8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_c55aa /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c55aa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -273,14 +273,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/bin/gmake" "cmTC_c2b62/fast"]
-  ignore line: [/bin/gmake -f CMakeFiles/cmTC_c2b62.dir/build.make CMakeFiles/cmTC_c2b62.dir/build]
+  ignore line: [Run Build Command:"/bin/gmake" "cmTC_c55aa/fast"]
+  ignore line: [/bin/gmake -f CMakeFiles/cmTC_c55aa.dir/build.make CMakeFiles/cmTC_c55aa.dir/build]
   ignore line: [gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c2b62]
-  ignore line: [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b62.dir/link.txt --verbose=1]
-  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c2b62 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++     -o CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o -c /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c55aa]
+  ignore line: [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c55aa.dir/link.txt --verbose=1]
+  ignore line: [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c55aa ]
   ignore line: [Reading specs from /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/specs]
   ignore line: [COLLECT_GCC=/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper]
@@ -290,13 +290,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.4.0 (GCC) ]
   ignore line: [COMPILER_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/:/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/:/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/:/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c2b62' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchuwcBL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_c2b62 /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c55aa' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTyqpj8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --rpath=/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib -L/opt/cesga/easybuild-cesga/os/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2 -o cmTC_c55aa /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64/../lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib/../lib64 -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/curl/7.61.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/openssl/1.1.0i/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/zlib/1.2.11/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/ncurses/6.1/lib64 -L/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/bzip2/1.0.8/lib -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64 -L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib -L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchuwcBL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTyqpj8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -312,7 +312,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/opt/cesga/easybuild-cesga/software/Compiler/gcccore/6.4.0/glibc/2.28/lib/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c2b62] ==> ignore
+    arg [cmTC_c55aa] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o] ==> ignore
@@ -335,7 +335,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64] ==> dir [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib64]
     arg [-L/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib] ==> dir [/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/lib]
     arg [-L/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> dir [/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Core/gcccore/6.4.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..]
-    arg [CMakeFiles/cmTC_c2b62.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c55aa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -376,14 +376,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_9f6a7/fast"
-/bin/gmake -f CMakeFiles/cmTC_9f6a7.dir/build.make CMakeFiles/cmTC_9f6a7.dir/build
+Run Build Command:"/bin/gmake" "cmTC_65cb6/fast"
+/bin/gmake -f CMakeFiles/cmTC_65cb6.dir/build.make CMakeFiles/cmTC_65cb6.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9f6a7.dir/feature_tests.cxx.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++1z -o CMakeFiles/cmTC_9f6a7.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9f6a7
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f6a7.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_9f6a7.dir/feature_tests.cxx.o  -o cmTC_9f6a7 
+Building CXX object CMakeFiles/cmTC_65cb6.dir/feature_tests.cxx.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++1z -o CMakeFiles/cmTC_65cb6.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_65cb6
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65cb6.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_65cb6.dir/feature_tests.cxx.o  -o cmTC_65cb6 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -449,14 +449,14 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_5a228/fast"
-/bin/gmake -f CMakeFiles/cmTC_5a228.dir/build.make CMakeFiles/cmTC_5a228.dir/build
+Run Build Command:"/bin/gmake" "cmTC_44bfc/fast"
+/bin/gmake -f CMakeFiles/cmTC_44bfc.dir/build.make CMakeFiles/cmTC_44bfc.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5a228.dir/feature_tests.cxx.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++14 -o CMakeFiles/cmTC_5a228.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5a228
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a228.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_5a228.dir/feature_tests.cxx.o  -o cmTC_5a228 
+Building CXX object CMakeFiles/cmTC_44bfc.dir/feature_tests.cxx.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++14 -o CMakeFiles/cmTC_44bfc.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_44bfc
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bfc.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_44bfc.dir/feature_tests.cxx.o  -o cmTC_44bfc 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -522,14 +522,14 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_b7194/fast"
-/bin/gmake -f CMakeFiles/cmTC_b7194.dir/build.make CMakeFiles/cmTC_b7194.dir/build
+Run Build Command:"/bin/gmake" "cmTC_d2720/fast"
+/bin/gmake -f CMakeFiles/cmTC_d2720.dir/build.make CMakeFiles/cmTC_d2720.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b7194.dir/feature_tests.cxx.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b7194.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b7194
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7194.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_b7194.dir/feature_tests.cxx.o  -o cmTC_b7194 
+Building CXX object CMakeFiles/cmTC_d2720.dir/feature_tests.cxx.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d2720.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d2720
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2720.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_d2720.dir/feature_tests.cxx.o  -o cmTC_d2720 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
@@ -595,14 +595,14 @@ gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tool
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/gmake" "cmTC_3585b/fast"
-/bin/gmake -f CMakeFiles/cmTC_3585b.dir/build.make CMakeFiles/cmTC_3585b.dir/build
+Run Build Command:"/bin/gmake" "cmTC_5c605/fast"
+/bin/gmake -f CMakeFiles/cmTC_5c605.dir/build.make CMakeFiles/cmTC_5c605.dir/build
 gmake[1]: Entering directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3585b.dir/feature_tests.cxx.o
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3585b.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3585b
-/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3585b.dir/link.txt --verbose=1
-/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_3585b.dir/feature_tests.cxx.o  -o cmTC_3585b 
+Building CXX object CMakeFiles/cmTC_5c605.dir/feature_tests.cxx.o
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5c605.dir/feature_tests.cxx.o -c /home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5c605
+/mnt/netapp1/Optcesga_FT2_RHEL7/easybuild-cesga/software/Compiler/gcccore/6.4.0/cmake/3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c605.dir/link.txt --verbose=1
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/c++       -rdynamic CMakeFiles/cmTC_5c605.dir/feature_tests.cxx.o  -o cmTC_5c605 
 gmake[1]: Leaving directory `/mnt/netapp2/Home_FT2/home/ulc/cursos/curso391/Tools/hpc_lab/build/CMakeFiles/CMakeTmp'
 
 
