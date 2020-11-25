@@ -1,7 +1,7 @@
 all: release
 release: matmul matmulO1 matmulO2 matmulO3 matmulOfast
 
-CFLAGS = -Wall -Wextra -march=native
+CFLAGS = -Wall -Wextra -march=native -lm
 PROFLAGS = -pg
 DBGFLAGS = -O0 -g
 O1FLAGS = -O1

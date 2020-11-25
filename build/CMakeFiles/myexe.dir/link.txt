@@ -1,0 +1,1 @@
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc -Wall -Wextra -march=native -Ofast  -rdynamic CMakeFiles/myexe.dir/matmul_kernels_avx.c.o CMakeFiles/myexe.dir/matmul_kernels.c.o CMakeFiles/myexe.dir/matmul.c.o CMakeFiles/myexe.dir/stuff.c.o  -o myexe 
