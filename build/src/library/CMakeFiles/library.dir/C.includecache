@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/matmul_kernels.c
+stuff.h
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
+
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/matmul_kernels_avx.c
+immintrin.h
+-
+stuff.h
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
+
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.c
+math.h
+-
+stuff.h
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
+
+/home/ulc/cursos/curso391/Tools/hpc_lab/src/library/stuff.h
+stdlib.h
+-
+time.h
+-
+string.h
+-
+sys/time.h
+-
+sys/resource.h
+-
+

@@ -1,0 +1,2 @@
+/bin/ar qc ../../../lib/liblibrary.a  CMakeFiles/library.dir/stuff.c.o CMakeFiles/library.dir/matmul_kernels_avx.c.o CMakeFiles/library.dir/matmul_kernels.c.o
+/bin/ranlib ../../../lib/liblibrary.a

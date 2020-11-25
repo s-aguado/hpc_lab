@@ -1,0 +1,1 @@
+/opt/cesga/easybuild-cesga/software/Core/gcccore/6.4.0/bin/cc -march=native -O2 -g  -rdynamic CMakeFiles/executable.dir/matmul.c.o CMakeFiles/executable.dir/stuff.c.o  -o ../../../bin/executable -lm ../../../lib/liblibrary.a 
